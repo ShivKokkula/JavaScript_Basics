@@ -158,5 +158,10 @@ const users = [
     user.permissions.includes("read")
   );
   console.log(hasAllReadPermission); // false
-  
+
+  ////////////////
+const participants = ["john", "mary", "gary"];
+const participantsFormatted = participants.join(", ");
+console.log(participantsFormatted); // john, mary, gary
+
   
