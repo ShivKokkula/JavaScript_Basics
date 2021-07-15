@@ -1,14 +1,14 @@
-// const person = {
-//     firstname : "Shiva",
-//     lasttime : "Kokkula"
-// }
-// function Person(fname,lname) {
-//     this.firstname = fname;
-//     this.lasttime = lname;
+const person = {
+    firstname : "Shiva",
+    lasttime : "Kokkula"
+}
+function Person(fname,lname) {
+    this.firstname = fname;
+    this.lasttime = lname;
     
-// }
+}
 
-// const person = new person();
+const person = new person();
 
 
 // /* Task : Execute FILE rw using Async / Sync examples. Read 100MB & write 100MB file.*/
