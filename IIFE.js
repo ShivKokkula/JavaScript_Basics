@@ -36,35 +36,6 @@ display(userName);
 // (10 > 9); // valid
 // (alert("Hi")); // valid
 
-///////////////Currying
-function fn(a, b) {
-    //...
-}
-function _fn(a, b, c) {
-    //...
-}
-
-///////////////
-function multiply(a, b, c) {
-    return a * b * c;
-}
-multiply(1,2,3); // 6
-
-////////////////////
-function multiply(a) {
-    return (b) => {
-        return (c) => {
-            return a * b * c
-        }
-    }
-}
-log(multiply(1)(2)(3)) // 6
-
-///////////////
-// f(x,y) = f(3,4) = x^2 + y = 3^2 + 4 = 13 = z
-
-//memoization
-
 //////////////Call method
 const myObject = {
     firstName:"John",
