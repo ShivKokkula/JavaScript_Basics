@@ -42,6 +42,7 @@ console.log(myProperties);
 const originalString = "How are you?";
 const splitString = originalString.split(" ");
 
+
 console.log(splitString);
 
 //Sort
