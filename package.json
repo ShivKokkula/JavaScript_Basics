@@ -1,0 +1,23 @@
+{
+  "name": "JavascriptBasics",
+  "version": "1.0.0",
+  "main": "IIFE.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShivKokkula/JavaScript_Basics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShivKokkula/JavaScript_Basics/issues"
+  },
+  "homepage": "https://github.com/ShivKokkula/JavaScript_Basics#readme",
+  "description": "",
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  }
+}
